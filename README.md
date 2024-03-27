@@ -1,3 +1,5 @@
+EngerLab forked from GDCM with fixes implemented from https://github.com/macports/macports-ports/commit/dbeb0efdbe96c393eb22ad7bdbe4a514f0432168.
+
 This is the source code of GDCM. It is available from sf.net website.
 Official GIT repository is at:
 
