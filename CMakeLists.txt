@@ -657,7 +657,7 @@ if(GDCM_STANDALONE)
   if(GDCM_USE_VTK)
     option(GDCM_USE_PARAVIEW "paraview plugin ?" OFF)
     # needed here so that we have VTK_WRAP_PYTHON and al. available
-    find_package(VTK VERSION 9.3.0 EXACT REQUIRED)
+    find_package(VTK 9.3.0 REQUIRED EXACT)
     mark_as_advanced(VTK_DIR)
     set(GDCM_VTK_DIR ${VTK_DIR})
     mark_as_advanced(GDCM_USE_PARAVIEW)

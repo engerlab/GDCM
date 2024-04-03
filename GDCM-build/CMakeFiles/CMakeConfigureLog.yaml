@@ -1,0 +1,2891 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:19 (project)"
+    message: |
+      The system is: Linux - 5.4.0-150-generic - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:19 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/majd/Software/GDCM/GDCM-build/CMakeFiles/3.29.0/CompilerIdCXX/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:19 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/majd/Software/GDCM/GDCM-build/CMakeFiles/3.29.0/CompilerIdC/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:64 (try_compile)"
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:19 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-vAlBB0"
+      binary: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-vAlBB0"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-vAlBB0'
+        
+        Run Build Command(s): /snap/cmake/1378/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5588c/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_5588c.dir/build.make CMakeFiles/cmTC_5588c.dir/build
+        make[1]: Entering directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-vAlBB0'
+        Building CXX object CMakeFiles/cmTC_5588c.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_5588c.dir/CMakeCXXCompilerABI.cpp.o -c /snap/cmake/1378/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        OFFLOAD_TARGET_NAMES=nvptx-none
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+        Thread model: posix
+        gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5588c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+         /usr/lib/gcc/x86_64-linux-gnu/7/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /snap/cmake/1378/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_5588c.dir/CMakeCXXCompilerABI.cpp.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccSioiAm.s
+        GNU C++14 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/7"
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/include/c++/7
+         /usr/include/x86_64-linux-gnu/c++/7
+         /usr/include/c++/7/backward
+         /usr/lib/gcc/x86_64-linux-gnu/7/include
+         /usr/local/include
+         /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        GNU C++14 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 3eb3dc290cd5714c3e1c3ae751116f07
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5588c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+         as -v --64 -o CMakeFiles/cmTC_5588c.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccSioiAm.s
+        GNU assembler version 2.30 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5588c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+        Linking CXX executable cmTC_5588c
+        /snap/cmake/1378/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5588c.dir/link.txt --verbose=1
+        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_5588c.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_5588c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+        Thread model: posix
+        gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5588c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+         /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccX5Atmp.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_5588c /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. -v CMakeFiles/cmTC_5588c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+        collect2 version 7.5.0
+        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccX5Atmp.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_5588c /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. -v CMakeFiles/cmTC_5588c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+        GNU ld (GNU Binutils for Ubuntu) 2.30
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5588c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+        make[1]: Leaving directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-vAlBB0'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:134 (message)"
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:19 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/include/c++/7]
+          add: [/usr/include/x86_64-linux-gnu/c++/7]
+          add: [/usr/include/c++/7/backward]
+          add: [/usr/lib/gcc/x86_64-linux-gnu/7/include]
+          add: [/usr/local/include]
+          add: [/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/include/c++/7] ==> [/usr/include/c++/7]
+        collapse include dir [/usr/include/x86_64-linux-gnu/c++/7] ==> [/usr/include/x86_64-linux-gnu/c++/7]
+        collapse include dir [/usr/include/c++/7/backward] ==> [/usr/include/c++/7/backward]
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/7/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/7/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed] ==> [/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/7;/usr/include/x86_64-linux-gnu/c++/7;/usr/include/c++/7/backward;/usr/lib/gcc/x86_64-linux-gnu/7/include;/usr/local/include;/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:170 (message)"
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:19 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-vAlBB0']
+        ignore line: []
+        ignore line: [Run Build Command(s): /snap/cmake/1378/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5588c/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_5588c.dir/build.make CMakeFiles/cmTC_5588c.dir/build]
+        ignore line: [make[1]: Entering directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-vAlBB0']
+        ignore line: [Building CXX object CMakeFiles/cmTC_5588c.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_5588c.dir/CMakeCXXCompilerABI.cpp.o -c /snap/cmake/1378/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5588c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/7/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /snap/cmake/1378/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_5588c.dir/CMakeCXXCompilerABI.cpp.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccSioiAm.s]
+        ignore line: [GNU C++14 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 7.5.0  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version isl-0.19-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/7"]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/include/c++/7]
+        ignore line: [ /usr/include/x86_64-linux-gnu/c++/7]
+        ignore line: [ /usr/include/c++/7/backward]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/7/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++14 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 7.5.0  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version isl-0.19-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 3eb3dc290cd5714c3e1c3ae751116f07]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5588c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_5588c.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccSioiAm.s]
+        ignore line: [GNU assembler version 2.30 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5588c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+        ignore line: [Linking CXX executable cmTC_5588c]
+        ignore line: [/snap/cmake/1378/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5588c.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/c++  -v -Wl -v CMakeFiles/cmTC_5588c.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_5588c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5588c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+        link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccX5Atmp.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_5588c /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. -v CMakeFiles/cmTC_5588c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccX5Atmp.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_5588c] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/7] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_5588c.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [collect2 version 7.5.0]
+        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccX5Atmp.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_5588c /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. -v CMakeFiles/cmTC_5588c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+        linker tool for 'CXX': /usr/bin/ld
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7] ==> [/usr/lib/gcc/x86_64-linux-gnu/7]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/7;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:207 (cmake_determine_linker_id)"
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:19 (project)"
+    message: |
+      Running the CXX compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld (GNU Binutils for Ubuntu) 2.30
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:64 (try_compile)"
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:19 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-qSHl63"
+      binary: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-qSHl63"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-qSHl63'
+        
+        Run Build Command(s): /snap/cmake/1378/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_62bc2/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_62bc2.dir/build.make CMakeFiles/cmTC_62bc2.dir/build
+        make[1]: Entering directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-qSHl63'
+        Building C object CMakeFiles/cmTC_62bc2.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_62bc2.dir/CMakeCCompilerABI.c.o -c /snap/cmake/1378/share/cmake-3.29/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        OFFLOAD_TARGET_NAMES=nvptx-none
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+        Thread model: posix
+        gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_62bc2.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+         /usr/lib/gcc/x86_64-linux-gnu/7/cc1 -quiet -v -imultiarch x86_64-linux-gnu /snap/cmake/1378/share/cmake-3.29/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_62bc2.dir/CMakeCCompilerABI.c.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccugVqCt.s
+        GNU C11 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-linux-gnu/7/include
+         /usr/local/include
+         /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        GNU C11 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: b62ed4a2880cd4159476ea8293b72fa8
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_62bc2.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+         as -v --64 -o CMakeFiles/cmTC_62bc2.dir/CMakeCCompilerABI.c.o /tmp/ccugVqCt.s
+        GNU assembler version 2.30 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_62bc2.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+        Linking C executable cmTC_62bc2
+        /snap/cmake/1378/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62bc2.dir/link.txt --verbose=1
+        /usr/bin/cc  -v -Wl,-v CMakeFiles/cmTC_62bc2.dir/CMakeCCompilerABI.c.o -o cmTC_62bc2
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+        Thread model: posix
+        gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_62bc2' '-mtune=generic' '-march=x86-64'
+         /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrzvyFs.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_62bc2 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. -v CMakeFiles/cmTC_62bc2.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+        collect2 version 7.5.0
+        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrzvyFs.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_62bc2 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. -v CMakeFiles/cmTC_62bc2.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+        GNU ld (GNU Binutils for Ubuntu) 2.30
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_62bc2' '-mtune=generic' '-march=x86-64'
+        make[1]: Leaving directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-qSHl63'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:134 (message)"
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:19 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-linux-gnu/7/include]
+          add: [/usr/local/include]
+          add: [/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/7/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/7/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed] ==> [/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/7/include;/usr/local/include;/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:170 (message)"
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:19 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-qSHl63']
+        ignore line: []
+        ignore line: [Run Build Command(s): /snap/cmake/1378/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_62bc2/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_62bc2.dir/build.make CMakeFiles/cmTC_62bc2.dir/build]
+        ignore line: [make[1]: Entering directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-qSHl63']
+        ignore line: [Building C object CMakeFiles/cmTC_62bc2.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_62bc2.dir/CMakeCCompilerABI.c.o -c /snap/cmake/1378/share/cmake-3.29/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_62bc2.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/7/cc1 -quiet -v -imultiarch x86_64-linux-gnu /snap/cmake/1378/share/cmake-3.29/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_62bc2.dir/CMakeCCompilerABI.c.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccugVqCt.s]
+        ignore line: [GNU C11 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 7.5.0  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version isl-0.19-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/7/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C11 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 7.5.0  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version isl-0.19-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: b62ed4a2880cd4159476ea8293b72fa8]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_62bc2.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_62bc2.dir/CMakeCCompilerABI.c.o /tmp/ccugVqCt.s]
+        ignore line: [GNU assembler version 2.30 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_62bc2.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [Linking C executable cmTC_62bc2]
+        ignore line: [/snap/cmake/1378/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62bc2.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/cc  -v -Wl -v CMakeFiles/cmTC_62bc2.dir/CMakeCCompilerABI.c.o -o cmTC_62bc2]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_62bc2' '-mtune=generic' '-march=x86-64']
+        link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrzvyFs.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_62bc2 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. -v CMakeFiles/cmTC_62bc2.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccrzvyFs.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_62bc2] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/7] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_62bc2.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [collect2 version 7.5.0]
+        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrzvyFs.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_62bc2 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. -v CMakeFiles/cmTC_62bc2.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+        linker tool for 'C': /usr/bin/ld
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7] ==> [/usr/lib/gcc/x86_64-linux-gnu/7]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> [/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/7;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:207 (cmake_determine_linker_id)"
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:19 (project)"
+    message: |
+      Running the C compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld (GNU Binutils for Ubuntu) 2.30
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:600 (CHECK_INCLUDE_FILE)"
+    checks:
+      - "Looking for pthread.h"
+    directories:
+      source: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-asJaM1"
+      binary: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-asJaM1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/majd/Software/GDCM/CMake"
+    buildResult:
+      variable: "GDCM_HAVE_PTHREAD_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-asJaM1'
+        
+        Run Build Command(s): /snap/cmake/1378/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b66fd/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_b66fd.dir/build.make CMakeFiles/cmTC_b66fd.dir/build
+        make[1]: Entering directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-asJaM1'
+        Building C object CMakeFiles/cmTC_b66fd.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_b66fd.dir/CheckIncludeFile.c.o -c /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-asJaM1/CheckIncludeFile.c
+        Linking C executable cmTC_b66fd
+        /snap/cmake/1378/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b66fd.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_b66fd.dir/CheckIncludeFile.c.o -o cmTC_b66fd
+        make[1]: Leaving directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-asJaM1'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "Utilities/gdcmjpeg/CMakeLists.txt:136 (CHECK_INCLUDE_FILE)"
+    checks:
+      - "Looking for stddef.h"
+    directories:
+      source: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-ohqBa0"
+      binary: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-ohqBa0"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/majd/Software/GDCM/CMake"
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-ohqBa0'
+        
+        Run Build Command(s): /snap/cmake/1378/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_3f6ab/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_3f6ab.dir/build.make CMakeFiles/cmTC_3f6ab.dir/build
+        make[1]: Entering directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-ohqBa0'
+        Building C object CMakeFiles/cmTC_3f6ab.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_3f6ab.dir/CheckIncludeFile.c.o -c /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-ohqBa0/CheckIncludeFile.c
+        Linking C executable cmTC_3f6ab
+        /snap/cmake/1378/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f6ab.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_3f6ab.dir/CheckIncludeFile.c.o -o cmTC_3f6ab
+        make[1]: Leaving directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-ohqBa0'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "Utilities/gdcmjpeg/CMakeLists.txt:137 (CHECK_INCLUDE_FILE)"
+    checks:
+      - "Looking for stdlib.h"
+    directories:
+      source: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-GxxJ12"
+      binary: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-GxxJ12"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/majd/Software/GDCM/CMake"
+    buildResult:
+      variable: "HAVE_STDLIB_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-GxxJ12'
+        
+        Run Build Command(s): /snap/cmake/1378/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_9a0ca/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_9a0ca.dir/build.make CMakeFiles/cmTC_9a0ca.dir/build
+        make[1]: Entering directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-GxxJ12'
+        Building C object CMakeFiles/cmTC_9a0ca.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_9a0ca.dir/CheckIncludeFile.c.o -c /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-GxxJ12/CheckIncludeFile.c
+        Linking C executable cmTC_9a0ca
+        /snap/cmake/1378/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a0ca.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_9a0ca.dir/CheckIncludeFile.c.o -o cmTC_9a0ca
+        make[1]: Leaving directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-GxxJ12'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "Utilities/gdcmexpat/CMakeLists.txt:39 (CHECK_INCLUDE_FILE)"
+    checks:
+      - "Looking for string.h"
+    directories:
+      source: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-aXq3D3"
+      binary: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-aXq3D3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/majd/Software/GDCM/CMake"
+    buildResult:
+      variable: "HAVE_MEMMOVE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-aXq3D3'
+        
+        Run Build Command(s): /snap/cmake/1378/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_cdb47/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_cdb47.dir/build.make CMakeFiles/cmTC_cdb47.dir/build
+        make[1]: Entering directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-aXq3D3'
+        Building C object CMakeFiles/cmTC_cdb47.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_cdb47.dir/CheckIncludeFile.c.o -c /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-aXq3D3/CheckIncludeFile.c
+        Linking C executable cmTC_cdb47
+        /snap/cmake/1378/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cdb47.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_cdb47.dir/CheckIncludeFile.c.o -o cmTC_cdb47
+        make[1]: Leaving directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-aXq3D3'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "Utilities/gdcmopenjpeg/cmake/EnsureFileInclude.cmake:13 (CHECK_INCLUDE_FILE)"
+      - "Utilities/gdcmopenjpeg/CMakeLists.txt:218 (ensure_file_include)"
+    checks:
+      - "Looking for string.h"
+    directories:
+      source: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-4kSXp1"
+      binary: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-4kSXp1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/majd/Software/GDCM/Utilities/gdcmopenjpeg/cmake;/home/majd/Software/GDCM/CMake"
+    buildResult:
+      variable: "HAVE_STRING_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-4kSXp1'
+        
+        Run Build Command(s): /snap/cmake/1378/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_104ec/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_104ec.dir/build.make CMakeFiles/cmTC_104ec.dir/build
+        make[1]: Entering directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-4kSXp1'
+        Building C object CMakeFiles/cmTC_104ec.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_104ec.dir/CheckIncludeFile.c.o -c /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-4kSXp1/CheckIncludeFile.c
+        Linking C executable cmTC_104ec
+        /snap/cmake/1378/bin/cmake -E cmake_link_script CMakeFiles/cmTC_104ec.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_104ec.dir/CheckIncludeFile.c.o -o cmTC_104ec
+        make[1]: Leaving directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-4kSXp1'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "Utilities/gdcmopenjpeg/cmake/EnsureFileInclude.cmake:13 (CHECK_INCLUDE_FILE)"
+      - "Utilities/gdcmopenjpeg/CMakeLists.txt:219 (ensure_file_include)"
+    checks:
+      - "Looking for memory.h"
+    directories:
+      source: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-zQ5yK1"
+      binary: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-zQ5yK1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/majd/Software/GDCM/Utilities/gdcmopenjpeg/cmake;/home/majd/Software/GDCM/CMake"
+    buildResult:
+      variable: "HAVE_MEMORY_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-zQ5yK1'
+        
+        Run Build Command(s): /snap/cmake/1378/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_dadcd/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_dadcd.dir/build.make CMakeFiles/cmTC_dadcd.dir/build
+        make[1]: Entering directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-zQ5yK1'
+        Building C object CMakeFiles/cmTC_dadcd.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_dadcd.dir/CheckIncludeFile.c.o -c /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-zQ5yK1/CheckIncludeFile.c
+        Linking C executable cmTC_dadcd
+        /snap/cmake/1378/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dadcd.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_dadcd.dir/CheckIncludeFile.c.o -o cmTC_dadcd
+        make[1]: Leaving directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-zQ5yK1'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "Utilities/gdcmopenjpeg/cmake/EnsureFileInclude.cmake:13 (CHECK_INCLUDE_FILE)"
+      - "Utilities/gdcmopenjpeg/CMakeLists.txt:221 (ensure_file_include)"
+    checks:
+      - "Looking for stdio.h"
+    directories:
+      source: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-7oh331"
+      binary: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-7oh331"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/majd/Software/GDCM/Utilities/gdcmopenjpeg/cmake;/home/majd/Software/GDCM/CMake"
+    buildResult:
+      variable: "HAVE_STDIO_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-7oh331'
+        
+        Run Build Command(s): /snap/cmake/1378/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f29ac/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_f29ac.dir/build.make CMakeFiles/cmTC_f29ac.dir/build
+        make[1]: Entering directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-7oh331'
+        Building C object CMakeFiles/cmTC_f29ac.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_f29ac.dir/CheckIncludeFile.c.o -c /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-7oh331/CheckIncludeFile.c
+        Linking C executable cmTC_f29ac
+        /snap/cmake/1378/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f29ac.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_f29ac.dir/CheckIncludeFile.c.o -o cmTC_f29ac
+        make[1]: Leaving directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-7oh331'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "Utilities/gdcmopenjpeg/cmake/EnsureFileInclude.cmake:13 (CHECK_INCLUDE_FILE)"
+      - "Utilities/gdcmopenjpeg/CMakeLists.txt:222 (ensure_file_include)"
+    checks:
+      - "Looking for math.h"
+    directories:
+      source: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-vmZv6Z"
+      binary: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-vmZv6Z"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/majd/Software/GDCM/Utilities/gdcmopenjpeg/cmake;/home/majd/Software/GDCM/CMake"
+    buildResult:
+      variable: "HAVE_MATH_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-vmZv6Z'
+        
+        Run Build Command(s): /snap/cmake/1378/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1ba6c/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_1ba6c.dir/build.make CMakeFiles/cmTC_1ba6c.dir/build
+        make[1]: Entering directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-vmZv6Z'
+        Building C object CMakeFiles/cmTC_1ba6c.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_1ba6c.dir/CheckIncludeFile.c.o -c /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-vmZv6Z/CheckIncludeFile.c
+        Linking C executable cmTC_1ba6c
+        /snap/cmake/1378/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ba6c.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_1ba6c.dir/CheckIncludeFile.c.o -o cmTC_1ba6c
+        make[1]: Leaving directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-vmZv6Z'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "Utilities/gdcmopenjpeg/cmake/EnsureFileInclude.cmake:13 (CHECK_INCLUDE_FILE)"
+      - "Utilities/gdcmopenjpeg/CMakeLists.txt:223 (ensure_file_include)"
+    checks:
+      - "Looking for float.h"
+    directories:
+      source: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-ZhQyC2"
+      binary: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-ZhQyC2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/majd/Software/GDCM/Utilities/gdcmopenjpeg/cmake;/home/majd/Software/GDCM/CMake"
+    buildResult:
+      variable: "HAVE_FLOAT_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-ZhQyC2'
+        
+        Run Build Command(s): /snap/cmake/1378/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a85f4/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_a85f4.dir/build.make CMakeFiles/cmTC_a85f4.dir/build
+        make[1]: Entering directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-ZhQyC2'
+        Building C object CMakeFiles/cmTC_a85f4.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_a85f4.dir/CheckIncludeFile.c.o -c /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-ZhQyC2/CheckIncludeFile.c
+        Linking C executable cmTC_a85f4
+        /snap/cmake/1378/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a85f4.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_a85f4.dir/CheckIncludeFile.c.o -o cmTC_a85f4
+        make[1]: Leaving directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-ZhQyC2'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "Utilities/gdcmopenjpeg/cmake/EnsureFileInclude.cmake:13 (CHECK_INCLUDE_FILE)"
+      - "Utilities/gdcmopenjpeg/CMakeLists.txt:224 (ensure_file_include)"
+    checks:
+      - "Looking for time.h"
+    directories:
+      source: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-4VLGu0"
+      binary: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-4VLGu0"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/majd/Software/GDCM/Utilities/gdcmopenjpeg/cmake;/home/majd/Software/GDCM/CMake"
+    buildResult:
+      variable: "HAVE_TIME_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-4VLGu0'
+        
+        Run Build Command(s): /snap/cmake/1378/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ba152/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_ba152.dir/build.make CMakeFiles/cmTC_ba152.dir/build
+        make[1]: Entering directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-4VLGu0'
+        Building C object CMakeFiles/cmTC_ba152.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_ba152.dir/CheckIncludeFile.c.o -c /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-4VLGu0/CheckIncludeFile.c
+        Linking C executable cmTC_ba152
+        /snap/cmake/1378/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba152.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_ba152.dir/CheckIncludeFile.c.o -o cmTC_ba152
+        make[1]: Leaving directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-4VLGu0'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "Utilities/gdcmopenjpeg/cmake/EnsureFileInclude.cmake:13 (CHECK_INCLUDE_FILE)"
+      - "Utilities/gdcmopenjpeg/CMakeLists.txt:225 (ensure_file_include)"
+    checks:
+      - "Looking for stdarg.h"
+    directories:
+      source: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-62hTH2"
+      binary: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-62hTH2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/majd/Software/GDCM/Utilities/gdcmopenjpeg/cmake;/home/majd/Software/GDCM/CMake"
+    buildResult:
+      variable: "HAVE_STDARG_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-62hTH2'
+        
+        Run Build Command(s): /snap/cmake/1378/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_9f424/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_9f424.dir/build.make CMakeFiles/cmTC_9f424.dir/build
+        make[1]: Entering directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-62hTH2'
+        Building C object CMakeFiles/cmTC_9f424.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_9f424.dir/CheckIncludeFile.c.o -c /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-62hTH2/CheckIncludeFile.c
+        Linking C executable cmTC_9f424
+        /snap/cmake/1378/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f424.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_9f424.dir/CheckIncludeFile.c.o -o cmTC_9f424
+        make[1]: Leaving directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-62hTH2'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "Utilities/gdcmopenjpeg/cmake/EnsureFileInclude.cmake:13 (CHECK_INCLUDE_FILE)"
+      - "Utilities/gdcmopenjpeg/CMakeLists.txt:226 (ensure_file_include)"
+    checks:
+      - "Looking for ctype.h"
+    directories:
+      source: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-afA7w3"
+      binary: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-afA7w3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/majd/Software/GDCM/Utilities/gdcmopenjpeg/cmake;/home/majd/Software/GDCM/CMake"
+    buildResult:
+      variable: "HAVE_CTYPE_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-afA7w3'
+        
+        Run Build Command(s): /snap/cmake/1378/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_dd9c3/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_dd9c3.dir/build.make CMakeFiles/cmTC_dd9c3.dir/build
+        make[1]: Entering directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-afA7w3'
+        Building C object CMakeFiles/cmTC_dd9c3.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_dd9c3.dir/CheckIncludeFile.c.o -c /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-afA7w3/CheckIncludeFile.c
+        Linking C executable cmTC_dd9c3
+        /snap/cmake/1378/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dd9c3.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_dd9c3.dir/CheckIncludeFile.c.o -o cmTC_dd9c3
+        make[1]: Leaving directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-afA7w3'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "Utilities/gdcmopenjpeg/cmake/EnsureFileInclude.cmake:13 (CHECK_INCLUDE_FILE)"
+      - "Utilities/gdcmopenjpeg/CMakeLists.txt:227 (ensure_file_include)"
+    checks:
+      - "Looking for assert.h"
+    directories:
+      source: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-EFHzh2"
+      binary: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-EFHzh2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/majd/Software/GDCM/Utilities/gdcmopenjpeg/cmake;/home/majd/Software/GDCM/CMake"
+    buildResult:
+      variable: "HAVE_ASSERT_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-EFHzh2'
+        
+        Run Build Command(s): /snap/cmake/1378/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_93730/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_93730.dir/build.make CMakeFiles/cmTC_93730.dir/build
+        make[1]: Entering directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-EFHzh2'
+        Building C object CMakeFiles/cmTC_93730.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_93730.dir/CheckIncludeFile.c.o -c /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-EFHzh2/CheckIncludeFile.c
+        Linking C executable cmTC_93730
+        /snap/cmake/1378/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93730.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_93730.dir/CheckIncludeFile.c.o -o cmTC_93730
+        make[1]: Leaving directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-EFHzh2'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "Utilities/gdcmopenjpeg/cmake/EnsureFileInclude.cmake:13 (CHECK_INCLUDE_FILE)"
+      - "Utilities/gdcmopenjpeg/CMakeLists.txt:230 (ensure_file_include)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-FEkPM1"
+      binary: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-FEkPM1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/majd/Software/GDCM/Utilities/gdcmopenjpeg/cmake;/home/majd/Software/GDCM/CMake"
+    buildResult:
+      variable: "OPJ_HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-FEkPM1'
+        
+        Run Build Command(s): /snap/cmake/1378/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_48464/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_48464.dir/build.make CMakeFiles/cmTC_48464.dir/build
+        make[1]: Entering directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-FEkPM1'
+        Building C object CMakeFiles/cmTC_48464.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_48464.dir/CheckIncludeFile.c.o -c /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-FEkPM1/CheckIncludeFile.c
+        Linking C executable cmTC_48464
+        /snap/cmake/1378/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48464.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_48464.dir/CheckIncludeFile.c.o -o cmTC_48464
+        make[1]: Leaving directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-FEkPM1'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "Utilities/gdcmopenjpeg/cmake/EnsureFileInclude.cmake:13 (CHECK_INCLUDE_FILE)"
+      - "Utilities/gdcmopenjpeg/CMakeLists.txt:231 (ensure_file_include)"
+    checks:
+      - "Looking for inttypes.h"
+    directories:
+      source: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-hiVKN3"
+      binary: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-hiVKN3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/majd/Software/GDCM/Utilities/gdcmopenjpeg/cmake;/home/majd/Software/GDCM/CMake"
+    buildResult:
+      variable: "OPJ_HAVE_INTTYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-hiVKN3'
+        
+        Run Build Command(s): /snap/cmake/1378/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ada9d/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_ada9d.dir/build.make CMakeFiles/cmTC_ada9d.dir/build
+        make[1]: Entering directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-hiVKN3'
+        Building C object CMakeFiles/cmTC_ada9d.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_ada9d.dir/CheckIncludeFile.c.o -c /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-hiVKN3/CheckIncludeFile.c
+        Linking C executable cmTC_ada9d
+        /snap/cmake/1378/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ada9d.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_ada9d.dir/CheckIncludeFile.c.o -o cmTC_ada9d
+        make[1]: Leaving directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-hiVKN3'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "Utilities/gdcmopenjpeg/CMakeLists.txt:235 (CHECK_INCLUDE_FILE)"
+    checks:
+      - "Looking for strings.h"
+    directories:
+      source: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-tpzBb4"
+      binary: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-tpzBb4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/majd/Software/GDCM/Utilities/gdcmopenjpeg/cmake;/home/majd/Software/GDCM/CMake"
+    buildResult:
+      variable: "HAVE_STRINGS_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-tpzBb4'
+        
+        Run Build Command(s): /snap/cmake/1378/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7e2e4/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_7e2e4.dir/build.make CMakeFiles/cmTC_7e2e4.dir/build
+        make[1]: Entering directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-tpzBb4'
+        Building C object CMakeFiles/cmTC_7e2e4.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_7e2e4.dir/CheckIncludeFile.c.o -c /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-tpzBb4/CheckIncludeFile.c
+        Linking C executable cmTC_7e2e4
+        /snap/cmake/1378/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e2e4.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_7e2e4.dir/CheckIncludeFile.c.o -o cmTC_7e2e4
+        make[1]: Leaving directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-tpzBb4'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "Utilities/gdcmopenjpeg/CMakeLists.txt:236 (CHECK_INCLUDE_FILE)"
+    checks:
+      - "Looking for sys/stat.h"
+    directories:
+      source: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-F8dvO2"
+      binary: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-F8dvO2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/majd/Software/GDCM/Utilities/gdcmopenjpeg/cmake;/home/majd/Software/GDCM/CMake"
+    buildResult:
+      variable: "HAVE_SYS_STAT_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-F8dvO2'
+        
+        Run Build Command(s): /snap/cmake/1378/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4b893/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_4b893.dir/build.make CMakeFiles/cmTC_4b893.dir/build
+        make[1]: Entering directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-F8dvO2'
+        Building C object CMakeFiles/cmTC_4b893.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_4b893.dir/CheckIncludeFile.c.o -c /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-F8dvO2/CheckIncludeFile.c
+        Linking C executable cmTC_4b893
+        /snap/cmake/1378/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b893.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_4b893.dir/CheckIncludeFile.c.o -o cmTC_4b893
+        make[1]: Leaving directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-F8dvO2'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "Utilities/gdcmopenjpeg/CMakeLists.txt:237 (CHECK_INCLUDE_FILE)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-djceY1"
+      binary: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-djceY1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/majd/Software/GDCM/Utilities/gdcmopenjpeg/cmake;/home/majd/Software/GDCM/CMake"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-djceY1'
+        
+        Run Build Command(s): /snap/cmake/1378/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_fab4c/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_fab4c.dir/build.make CMakeFiles/cmTC_fab4c.dir/build
+        make[1]: Entering directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-djceY1'
+        Building C object CMakeFiles/cmTC_fab4c.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_fab4c.dir/CheckIncludeFile.c.o -c /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-djceY1/CheckIncludeFile.c
+        Linking C executable cmTC_fab4c
+        /snap/cmake/1378/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fab4c.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_fab4c.dir/CheckIncludeFile.c.o -o cmTC_fab4c
+        make[1]: Leaving directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-djceY1'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "Utilities/gdcmopenjpeg/CMakeLists.txt:238 (CHECK_INCLUDE_FILE)"
+    checks:
+      - "Looking for unistd.h"
+    directories:
+      source: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-zAtdP3"
+      binary: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-zAtdP3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/majd/Software/GDCM/Utilities/gdcmopenjpeg/cmake;/home/majd/Software/GDCM/CMake"
+    buildResult:
+      variable: "HAVE_UNISTD_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-zAtdP3'
+        
+        Run Build Command(s): /snap/cmake/1378/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b94a7/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_b94a7.dir/build.make CMakeFiles/cmTC_b94a7.dir/build
+        make[1]: Entering directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-zAtdP3'
+        Building C object CMakeFiles/cmTC_b94a7.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_b94a7.dir/CheckIncludeFile.c.o -c /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-zAtdP3/CheckIncludeFile.c
+        Linking C executable cmTC_b94a7
+        /snap/cmake/1378/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b94a7.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_b94a7.dir/CheckIncludeFile.c.o -o cmTC_b94a7
+        make[1]: Leaving directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-zAtdP3'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "Utilities/gdcmopenjpeg/cmake/TestLargeFiles.cmake:29 (try_compile)"
+      - "Utilities/gdcmopenjpeg/CMakeLists.txt:242 (OPJ_TEST_LARGE_FILES)"
+    directories:
+      source: "/home/majd/Software/GDCM/GDCM-build/Utilities/gdcmopenjpeg/CMakeFiles/CMakeTmp"
+      binary: "/home/majd/Software/GDCM/GDCM-build/Utilities/gdcmopenjpeg/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/majd/Software/GDCM/Utilities/gdcmopenjpeg/cmake;/home/majd/Software/GDCM/CMake"
+    buildResult:
+      variable: "FILE64_OK"
+      cached: true
+      stdout: |
+        Change Dir: '/home/majd/Software/GDCM/GDCM-build/Utilities/gdcmopenjpeg/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /snap/cmake/1378/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_77e3c/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_77e3c.dir/build.make CMakeFiles/cmTC_77e3c.dir/build
+        make[1]: Entering directory '/home/majd/Software/GDCM/GDCM-build/Utilities/gdcmopenjpeg/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_77e3c.dir/TestFileOffsetBits.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_77e3c.dir/TestFileOffsetBits.c.o -c /home/majd/Software/GDCM/Utilities/gdcmopenjpeg/cmake/TestFileOffsetBits.c
+        Linking C executable cmTC_77e3c
+        /snap/cmake/1378/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77e3c.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_77e3c.dir/TestFileOffsetBits.c.o -o cmTC_77e3c
+        make[1]: Leaving directory '/home/majd/Software/GDCM/GDCM-build/Utilities/gdcmopenjpeg/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "Utilities/gdcmopenjpeg/cmake/TestLargeFiles.cmake:94 (try_compile)"
+      - "Utilities/gdcmopenjpeg/CMakeLists.txt:242 (OPJ_TEST_LARGE_FILES)"
+    directories:
+      source: "/home/majd/Software/GDCM/GDCM-build/Utilities/gdcmopenjpeg/CMakeFiles/CMakeTmp"
+      binary: "/home/majd/Software/GDCM/GDCM-build/Utilities/gdcmopenjpeg/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/majd/Software/GDCM/Utilities/gdcmopenjpeg/cmake;/home/majd/Software/GDCM/CMake"
+    buildResult:
+      variable: "FSEEKO_COMPILE_OK"
+      cached: true
+      stdout: |
+        Change Dir: '/home/majd/Software/GDCM/GDCM-build/Utilities/gdcmopenjpeg/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /snap/cmake/1378/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6f334/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_6f334.dir/build.make CMakeFiles/cmTC_6f334.dir/build
+        make[1]: Entering directory '/home/majd/Software/GDCM/GDCM-build/Utilities/gdcmopenjpeg/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_6f334.dir/TestLargeFiles.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_6f334.dir/TestLargeFiles.c.o -c /home/majd/Software/GDCM/GDCM-build/Utilities/gdcmopenjpeg/CMakeFiles/TestLargeFiles.c
+        Linking C executable cmTC_6f334
+        /snap/cmake/1378/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f334.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_6f334.dir/TestLargeFiles.c.o -o cmTC_6f334
+        make[1]: Leaving directory '/home/majd/Software/GDCM/GDCM-build/Utilities/gdcmopenjpeg/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "Utilities/gdcmopenjpeg/CMakeLists.txt:246 (check_include_files)"
+    checks:
+      - "Looking for include file malloc.h"
+    directories:
+      source: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-sXxw20"
+      binary: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-sXxw20"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/majd/Software/GDCM/Utilities/gdcmopenjpeg/cmake;/home/majd/Software/GDCM/CMake"
+    buildResult:
+      variable: "OPJ_HAVE_MALLOC_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-sXxw20'
+        
+        Run Build Command(s): /snap/cmake/1378/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_3e09a/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_3e09a.dir/build.make CMakeFiles/cmTC_3e09a.dir/build
+        make[1]: Entering directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-sXxw20'
+        Building C object CMakeFiles/cmTC_3e09a.dir/OPJ_HAVE_MALLOC_H.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_3e09a.dir/OPJ_HAVE_MALLOC_H.c.o -c /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-sXxw20/OPJ_HAVE_MALLOC_H.c
+        Linking C executable cmTC_3e09a
+        /snap/cmake/1378/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e09a.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_3e09a.dir/OPJ_HAVE_MALLOC_H.c.o -o cmTC_3e09a
+        make[1]: Leaving directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-sXxw20'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "Utilities/gdcmopenjpeg/CMakeLists.txt:249 (check_symbol_exists)"
+    checks:
+      - "Looking for _aligned_malloc"
+    directories:
+      source: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-l98Ap1"
+      binary: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-l98Ap1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/majd/Software/GDCM/Utilities/gdcmopenjpeg/cmake;/home/majd/Software/GDCM/CMake"
+    buildResult:
+      variable: "OPJ_HAVE__ALIGNED_MALLOC"
+      cached: true
+      stdout: |
+        Change Dir: '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-l98Ap1'
+        
+        Run Build Command(s): /snap/cmake/1378/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_3d252/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_3d252.dir/build.make CMakeFiles/cmTC_3d252.dir/build
+        make[1]: Entering directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-l98Ap1'
+        Building C object CMakeFiles/cmTC_3d252.dir/CheckSymbolExists.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_3d252.dir/CheckSymbolExists.c.o -c /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-l98Ap1/CheckSymbolExists.c
+        /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-l98Ap1/CheckSymbolExists.c: In function ‘main’:
+        /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-l98Ap1/CheckSymbolExists.c:8:19: error: ‘_aligned_malloc’ undeclared (first use in this function); did you mean ‘__builtin_malloc’?
+           return ((int*)(&_aligned_malloc))[argc];
+                           ^~~~~~~~~~~~~~~
+                           __builtin_malloc
+        /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-l98Ap1/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+        CMakeFiles/cmTC_3d252.dir/build.make:77: recipe for target 'CMakeFiles/cmTC_3d252.dir/CheckSymbolExists.c.o' failed
+        make[1]: *** [CMakeFiles/cmTC_3d252.dir/CheckSymbolExists.c.o] Error 1
+        make[1]: Leaving directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-l98Ap1'
+        Makefile:127: recipe for target 'cmTC_3d252/fast' failed
+        make: *** [cmTC_3d252/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "Utilities/gdcmopenjpeg/CMakeLists.txt:252 (check_symbol_exists)"
+    checks:
+      - "Looking for posix_memalign"
+    directories:
+      source: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-tOPkm2"
+      binary: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-tOPkm2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/majd/Software/GDCM/Utilities/gdcmopenjpeg/cmake;/home/majd/Software/GDCM/CMake"
+    buildResult:
+      variable: "OPJ_HAVE_POSIX_MEMALIGN"
+      cached: true
+      stdout: |
+        Change Dir: '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-tOPkm2'
+        
+        Run Build Command(s): /snap/cmake/1378/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4fa1e/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_4fa1e.dir/build.make CMakeFiles/cmTC_4fa1e.dir/build
+        make[1]: Entering directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-tOPkm2'
+        Building C object CMakeFiles/cmTC_4fa1e.dir/CheckSymbolExists.c.o
+        /usr/bin/cc -D_POSIX_C_SOURCE=200112L   -o CMakeFiles/cmTC_4fa1e.dir/CheckSymbolExists.c.o -c /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-tOPkm2/CheckSymbolExists.c
+        Linking C executable cmTC_4fa1e
+        /snap/cmake/1378/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4fa1e.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_4fa1e.dir/CheckSymbolExists.c.o -o cmTC_4fa1e
+        make[1]: Leaving directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-tOPkm2'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "Utilities/gdcmopenjpeg/CMakeLists.txt:255 (check_symbol_exists)"
+    checks:
+      - "Looking for memalign"
+    directories:
+      source: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-2XKK71"
+      binary: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-2XKK71"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/majd/Software/GDCM/Utilities/gdcmopenjpeg/cmake;/home/majd/Software/GDCM/CMake"
+    buildResult:
+      variable: "OPJ_HAVE_MEMALIGN"
+      cached: true
+      stdout: |
+        Change Dir: '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-2XKK71'
+        
+        Run Build Command(s): /snap/cmake/1378/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_0403f/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_0403f.dir/build.make CMakeFiles/cmTC_0403f.dir/build
+        make[1]: Entering directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-2XKK71'
+        Building C object CMakeFiles/cmTC_0403f.dir/CheckSymbolExists.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_0403f.dir/CheckSymbolExists.c.o -c /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-2XKK71/CheckSymbolExists.c
+        Linking C executable cmTC_0403f
+        /snap/cmake/1378/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0403f.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_0403f.dir/CheckSymbolExists.c.o -o cmTC_0403f
+        make[1]: Leaving directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-2XKK71'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "Utilities/gdcmopenjpeg/src/lib/openjp2/CMakeLists.txt:191 (find_package)"
+    directories:
+      source: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-i4ply0"
+      binary: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-i4ply0"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/majd/Software/GDCM/Utilities/gdcmopenjpeg/cmake;/home/majd/Software/GDCM/CMake"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-i4ply0'
+        
+        Run Build Command(s): /snap/cmake/1378/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f6a50/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_f6a50.dir/build.make CMakeFiles/cmTC_f6a50.dir/build
+        make[1]: Entering directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-i4ply0'
+        Building C object CMakeFiles/cmTC_f6a50.dir/src.c.o
+        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_f6a50.dir/src.c.o -c /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-i4ply0/src.c
+        Linking C executable cmTC_f6a50
+        /snap/cmake/1378/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6a50.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_f6a50.dir/src.c.o -o cmTC_f6a50
+        CMakeFiles/cmTC_f6a50.dir/src.c.o: In function `main':
+        src.c:(.text+0x3e): undefined reference to `pthread_create'
+        src.c:(.text+0x4a): undefined reference to `pthread_detach'
+        src.c:(.text+0x56): undefined reference to `pthread_cancel'
+        src.c:(.text+0x67): undefined reference to `pthread_join'
+        src.c:(.text+0x7b): undefined reference to `pthread_atfork'
+        collect2: error: ld returned 1 exit status
+        CMakeFiles/cmTC_f6a50.dir/build.make:98: recipe for target 'cmTC_f6a50' failed
+        make[1]: *** [cmTC_f6a50] Error 1
+        make[1]: Leaving directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-i4ply0'
+        Makefile:127: recipe for target 'cmTC_f6a50/fast' failed
+        make: *** [cmTC_f6a50/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "Utilities/gdcmopenjpeg/src/lib/openjp2/CMakeLists.txt:191 (find_package)"
+    directories:
+      source: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-hhBwz2"
+      binary: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-hhBwz2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/majd/Software/GDCM/Utilities/gdcmopenjpeg/cmake;/home/majd/Software/GDCM/CMake"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-hhBwz2'
+        
+        Run Build Command(s): /snap/cmake/1378/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7b0c0/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_7b0c0.dir/build.make CMakeFiles/cmTC_7b0c0.dir/build
+        make[1]: Entering directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-hhBwz2'
+        Building C object CMakeFiles/cmTC_7b0c0.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_7b0c0.dir/CheckFunctionExists.c.o -c /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-hhBwz2/CheckFunctionExists.c
+        Linking C executable cmTC_7b0c0
+        /snap/cmake/1378/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b0c0.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_7b0c0.dir/CheckFunctionExists.c.o -o cmTC_7b0c0  -lpthreads
+        /usr/bin/ld: cannot find -lpthreads
+        collect2: error: ld returned 1 exit status
+        CMakeFiles/cmTC_7b0c0.dir/build.make:98: recipe for target 'cmTC_7b0c0' failed
+        make[1]: *** [cmTC_7b0c0] Error 1
+        make[1]: Leaving directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-hhBwz2'
+        Makefile:127: recipe for target 'cmTC_7b0c0/fast' failed
+        make: *** [cmTC_7b0c0/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "Utilities/gdcmopenjpeg/src/lib/openjp2/CMakeLists.txt:191 (find_package)"
+    directories:
+      source: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-7hvCq1"
+      binary: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-7hvCq1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/majd/Software/GDCM/Utilities/gdcmopenjpeg/cmake;/home/majd/Software/GDCM/CMake"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-7hvCq1'
+        
+        Run Build Command(s): /snap/cmake/1378/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_3b26f/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_3b26f.dir/build.make CMakeFiles/cmTC_3b26f.dir/build
+        make[1]: Entering directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-7hvCq1'
+        Building C object CMakeFiles/cmTC_3b26f.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_3b26f.dir/CheckFunctionExists.c.o -c /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-7hvCq1/CheckFunctionExists.c
+        Linking C executable cmTC_3b26f
+        /snap/cmake/1378/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b26f.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_3b26f.dir/CheckFunctionExists.c.o -o cmTC_3b26f  -lpthread
+        make[1]: Leaving directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-7hvCq1'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "CMakeLists.txt:184 (CHECK_INCLUDE_FILES)"
+      - "Utilities/gdcmuuid/CMakeLists.txt:64 (CHECK_INCLUDE_FILE_CONCAT)"
+    checks:
+      - "Looking for 3 include files stdlib.h, ..., inttypes.h"
+    directories:
+      source: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-Q6FjL1"
+      binary: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-Q6FjL1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/majd/Software/GDCM/CMake"
+    buildResult:
+      variable: "HAVE_INTTYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-Q6FjL1'
+        
+        Run Build Command(s): /snap/cmake/1378/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a629f/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_a629f.dir/build.make CMakeFiles/cmTC_a629f.dir/build
+        make[1]: Entering directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-Q6FjL1'
+        Building C object CMakeFiles/cmTC_a629f.dir/HAVE_INTTYPES_H.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_a629f.dir/HAVE_INTTYPES_H.c.o -c /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-Q6FjL1/HAVE_INTTYPES_H.c
+        Linking C executable cmTC_a629f
+        /snap/cmake/1378/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a629f.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_a629f.dir/HAVE_INTTYPES_H.c.o -o cmTC_a629f
+        make[1]: Leaving directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-Q6FjL1'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "CMakeLists.txt:184 (CHECK_INCLUDE_FILES)"
+      - "Utilities/gdcmuuid/CMakeLists.txt:65 (CHECK_INCLUDE_FILE_CONCAT)"
+    checks:
+      - "Looking for 4 include files stdlib.h, ..., sys/ioctl.h"
+    directories:
+      source: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-PiEXL3"
+      binary: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-PiEXL3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/majd/Software/GDCM/CMake"
+    buildResult:
+      variable: "HAVE_SYS_IOCTL_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-PiEXL3'
+        
+        Run Build Command(s): /snap/cmake/1378/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ba6ac/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_ba6ac.dir/build.make CMakeFiles/cmTC_ba6ac.dir/build
+        make[1]: Entering directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-PiEXL3'
+        Building C object CMakeFiles/cmTC_ba6ac.dir/HAVE_SYS_IOCTL_H.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_ba6ac.dir/HAVE_SYS_IOCTL_H.c.o -c /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-PiEXL3/HAVE_SYS_IOCTL_H.c
+        Linking C executable cmTC_ba6ac
+        /snap/cmake/1378/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba6ac.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_ba6ac.dir/HAVE_SYS_IOCTL_H.c.o -o cmTC_ba6ac
+        make[1]: Leaving directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-PiEXL3'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "CMakeLists.txt:184 (CHECK_INCLUDE_FILES)"
+      - "Utilities/gdcmuuid/CMakeLists.txt:66 (CHECK_INCLUDE_FILE_CONCAT)"
+    checks:
+      - "Looking for 5 include files stdlib.h, ..., sys/time.h"
+    directories:
+      source: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-Z06qD0"
+      binary: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-Z06qD0"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/majd/Software/GDCM/CMake"
+    buildResult:
+      variable: "HAVE_SYS_TIME_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-Z06qD0'
+        
+        Run Build Command(s): /snap/cmake/1378/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_2c9c4/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_2c9c4.dir/build.make CMakeFiles/cmTC_2c9c4.dir/build
+        make[1]: Entering directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-Z06qD0'
+        Building C object CMakeFiles/cmTC_2c9c4.dir/HAVE_SYS_TIME_H.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_2c9c4.dir/HAVE_SYS_TIME_H.c.o -c /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-Z06qD0/HAVE_SYS_TIME_H.c
+        Linking C executable cmTC_2c9c4
+        /snap/cmake/1378/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c9c4.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_2c9c4.dir/HAVE_SYS_TIME_H.c.o -o cmTC_2c9c4
+        make[1]: Leaving directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-Z06qD0'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "CMakeLists.txt:184 (CHECK_INCLUDE_FILES)"
+      - "Utilities/gdcmuuid/CMakeLists.txt:67 (CHECK_INCLUDE_FILE_CONCAT)"
+    checks:
+      - "Looking for 6 include files stdlib.h, ..., sys/file.h"
+    directories:
+      source: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-vBkVV2"
+      binary: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-vBkVV2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/majd/Software/GDCM/CMake"
+    buildResult:
+      variable: "HAVE_SYS_FILE_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-vBkVV2'
+        
+        Run Build Command(s): /snap/cmake/1378/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ea278/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_ea278.dir/build.make CMakeFiles/cmTC_ea278.dir/build
+        make[1]: Entering directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-vBkVV2'
+        Building C object CMakeFiles/cmTC_ea278.dir/HAVE_SYS_FILE_H.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_ea278.dir/HAVE_SYS_FILE_H.c.o -c /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-vBkVV2/HAVE_SYS_FILE_H.c
+        Linking C executable cmTC_ea278
+        /snap/cmake/1378/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea278.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_ea278.dir/HAVE_SYS_FILE_H.c.o -o cmTC_ea278
+        make[1]: Leaving directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-vBkVV2'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "CMakeLists.txt:184 (CHECK_INCLUDE_FILES)"
+      - "Utilities/gdcmuuid/CMakeLists.txt:68 (CHECK_INCLUDE_FILE_CONCAT)"
+    checks:
+      - "Looking for 7 include files stdlib.h, ..., sys/socket.h"
+    directories:
+      source: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-oS2sf3"
+      binary: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-oS2sf3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/majd/Software/GDCM/CMake"
+    buildResult:
+      variable: "HAVE_SYS_SOCKET_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-oS2sf3'
+        
+        Run Build Command(s): /snap/cmake/1378/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b216d/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_b216d.dir/build.make CMakeFiles/cmTC_b216d.dir/build
+        make[1]: Entering directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-oS2sf3'
+        Building C object CMakeFiles/cmTC_b216d.dir/HAVE_SYS_SOCKET_H.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_b216d.dir/HAVE_SYS_SOCKET_H.c.o -c /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-oS2sf3/HAVE_SYS_SOCKET_H.c
+        Linking C executable cmTC_b216d
+        /snap/cmake/1378/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b216d.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_b216d.dir/HAVE_SYS_SOCKET_H.c.o -o cmTC_b216d
+        make[1]: Leaving directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-oS2sf3'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "CMakeLists.txt:184 (CHECK_INCLUDE_FILES)"
+      - "Utilities/gdcmuuid/CMakeLists.txt:69 (CHECK_INCLUDE_FILE_CONCAT)"
+    checks:
+      - "Looking for 8 include files stdlib.h, ..., sys/sockio.h"
+    directories:
+      source: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-Gbzfd4"
+      binary: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-Gbzfd4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/majd/Software/GDCM/CMake"
+    buildResult:
+      variable: "HAVE_SYS_SOCKIO_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-Gbzfd4'
+        
+        Run Build Command(s): /snap/cmake/1378/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_23ef8/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_23ef8.dir/build.make CMakeFiles/cmTC_23ef8.dir/build
+        make[1]: Entering directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-Gbzfd4'
+        Building C object CMakeFiles/cmTC_23ef8.dir/HAVE_SYS_SOCKIO_H.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_23ef8.dir/HAVE_SYS_SOCKIO_H.c.o -c /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-Gbzfd4/HAVE_SYS_SOCKIO_H.c
+        /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-Gbzfd4/HAVE_SYS_SOCKIO_H.c:9:10: fatal error: sys/sockio.h: No such file or directory
+         #include <sys/sockio.h>
+                  ^~~~~~~~~~~~~~
+        compilation terminated.
+        CMakeFiles/cmTC_23ef8.dir/build.make:77: recipe for target 'CMakeFiles/cmTC_23ef8.dir/HAVE_SYS_SOCKIO_H.c.o' failed
+        make[1]: *** [CMakeFiles/cmTC_23ef8.dir/HAVE_SYS_SOCKIO_H.c.o] Error 1
+        make[1]: Leaving directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-Gbzfd4'
+        Makefile:127: recipe for target 'cmTC_23ef8/fast' failed
+        make: *** [cmTC_23ef8/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "CMakeLists.txt:184 (CHECK_INCLUDE_FILES)"
+      - "Utilities/gdcmuuid/CMakeLists.txt:70 (CHECK_INCLUDE_FILE_CONCAT)"
+    checks:
+      - "Looking for 8 include files stdlib.h, ..., net/if.h"
+    directories:
+      source: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-FrUab4"
+      binary: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-FrUab4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/majd/Software/GDCM/CMake"
+    buildResult:
+      variable: "HAVE_NET_IF_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-FrUab4'
+        
+        Run Build Command(s): /snap/cmake/1378/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_9bdc3/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_9bdc3.dir/build.make CMakeFiles/cmTC_9bdc3.dir/build
+        make[1]: Entering directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-FrUab4'
+        Building C object CMakeFiles/cmTC_9bdc3.dir/HAVE_NET_IF_H.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_9bdc3.dir/HAVE_NET_IF_H.c.o -c /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-FrUab4/HAVE_NET_IF_H.c
+        Linking C executable cmTC_9bdc3
+        /snap/cmake/1378/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9bdc3.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_9bdc3.dir/HAVE_NET_IF_H.c.o -o cmTC_9bdc3
+        make[1]: Leaving directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-FrUab4'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "CMakeLists.txt:184 (CHECK_INCLUDE_FILES)"
+      - "Utilities/gdcmuuid/CMakeLists.txt:71 (CHECK_INCLUDE_FILE_CONCAT)"
+    checks:
+      - "Looking for 9 include files stdlib.h, ..., netinet/in.h"
+    directories:
+      source: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-6LnoK0"
+      binary: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-6LnoK0"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/majd/Software/GDCM/CMake"
+    buildResult:
+      variable: "HAVE_NETINET_IN_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-6LnoK0'
+        
+        Run Build Command(s): /snap/cmake/1378/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_cf4cb/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_cf4cb.dir/build.make CMakeFiles/cmTC_cf4cb.dir/build
+        make[1]: Entering directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-6LnoK0'
+        Building C object CMakeFiles/cmTC_cf4cb.dir/HAVE_NETINET_IN_H.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_cf4cb.dir/HAVE_NETINET_IN_H.c.o -c /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-6LnoK0/HAVE_NETINET_IN_H.c
+        Linking C executable cmTC_cf4cb
+        /snap/cmake/1378/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf4cb.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_cf4cb.dir/HAVE_NETINET_IN_H.c.o -o cmTC_cf4cb
+        make[1]: Leaving directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-6LnoK0'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "CMakeLists.txt:184 (CHECK_INCLUDE_FILES)"
+      - "Utilities/gdcmuuid/CMakeLists.txt:72 (CHECK_INCLUDE_FILE_CONCAT)"
+    checks:
+      - "Looking for 10 include files stdlib.h, ..., net/if_dl.h"
+    directories:
+      source: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-T7y1F1"
+      binary: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-T7y1F1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/majd/Software/GDCM/CMake"
+    buildResult:
+      variable: "HAVE_NET_IF_DL_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-T7y1F1'
+        
+        Run Build Command(s): /snap/cmake/1378/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1394f/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_1394f.dir/build.make CMakeFiles/cmTC_1394f.dir/build
+        make[1]: Entering directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-T7y1F1'
+        Building C object CMakeFiles/cmTC_1394f.dir/HAVE_NET_IF_DL_H.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_1394f.dir/HAVE_NET_IF_DL_H.c.o -c /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-T7y1F1/HAVE_NET_IF_DL_H.c
+        /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-T7y1F1/HAVE_NET_IF_DL_H.c:11:10: fatal error: net/if_dl.h: No such file or directory
+         #include <net/if_dl.h>
+                  ^~~~~~~~~~~~~
+        compilation terminated.
+        CMakeFiles/cmTC_1394f.dir/build.make:77: recipe for target 'CMakeFiles/cmTC_1394f.dir/HAVE_NET_IF_DL_H.c.o' failed
+        make[1]: *** [CMakeFiles/cmTC_1394f.dir/HAVE_NET_IF_DL_H.c.o] Error 1
+        make[1]: Leaving directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-T7y1F1'
+        Makefile:127: recipe for target 'cmTC_1394f/fast' failed
+        make: *** [cmTC_1394f/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "CMakeLists.txt:184 (CHECK_INCLUDE_FILES)"
+      - "Utilities/gdcmuuid/CMakeLists.txt:73 (CHECK_INCLUDE_FILE_CONCAT)"
+    checks:
+      - "Looking for 10 include files stdlib.h, ..., net/if_arp.h"
+    directories:
+      source: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-6isMb1"
+      binary: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-6isMb1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/majd/Software/GDCM/CMake"
+    buildResult:
+      variable: "HAVE_NET_IF_ARP_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-6isMb1'
+        
+        Run Build Command(s): /snap/cmake/1378/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8dba2/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_8dba2.dir/build.make CMakeFiles/cmTC_8dba2.dir/build
+        make[1]: Entering directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-6isMb1'
+        Building C object CMakeFiles/cmTC_8dba2.dir/HAVE_NET_IF_ARP_H.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_8dba2.dir/HAVE_NET_IF_ARP_H.c.o -c /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-6isMb1/HAVE_NET_IF_ARP_H.c
+        Linking C executable cmTC_8dba2
+        /snap/cmake/1378/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8dba2.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_8dba2.dir/HAVE_NET_IF_ARP_H.c.o -o cmTC_8dba2
+        make[1]: Leaving directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-6isMb1'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "Utilities/socketxx/socket++/CMakeLists.txt:7 (CHECK_FUNCTION_EXISTS)"
+    checks:
+      - "Looking for strsignal"
+    directories:
+      source: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-9gD7f2"
+      binary: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-9gD7f2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/majd/Software/GDCM/CMake"
+    buildResult:
+      variable: "SOCKETXX_HAVE_STRSIGNAL"
+      cached: true
+      stdout: |
+        Change Dir: '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-9gD7f2'
+        
+        Run Build Command(s): /snap/cmake/1378/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_807df/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_807df.dir/build.make CMakeFiles/cmTC_807df.dir/build
+        make[1]: Entering directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-9gD7f2'
+        Building C object CMakeFiles/cmTC_807df.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strsignal -o CMakeFiles/cmTC_807df.dir/CheckFunctionExists.c.o -c /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-9gD7f2/CheckFunctionExists.c
+        Linking C executable cmTC_807df
+        /snap/cmake/1378/bin/cmake -E cmake_link_script CMakeFiles/cmTC_807df.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strsignal CMakeFiles/cmTC_807df.dir/CheckFunctionExists.c.o -o cmTC_807df
+        make[1]: Leaving directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-9gD7f2'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "CMakeLists.txt:184 (CHECK_INCLUDE_FILES)"
+      - "Source/Common/CMakeLists.txt:21 (CHECK_INCLUDE_FILE_CONCAT)"
+    checks:
+      - "Looking for include file sys/time.h"
+    directories:
+      source: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-S5ldi1"
+      binary: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-S5ldi1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/majd/Software/GDCM/CMake"
+    buildResult:
+      variable: "GDCM_HAVE_SYS_TIME_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-S5ldi1'
+        
+        Run Build Command(s): /snap/cmake/1378/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f667f/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_f667f.dir/build.make CMakeFiles/cmTC_f667f.dir/build
+        make[1]: Entering directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-S5ldi1'
+        Building C object CMakeFiles/cmTC_f667f.dir/GDCM_HAVE_SYS_TIME_H.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_f667f.dir/GDCM_HAVE_SYS_TIME_H.c.o -c /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-S5ldi1/GDCM_HAVE_SYS_TIME_H.c
+        Linking C executable cmTC_f667f
+        /snap/cmake/1378/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f667f.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_f667f.dir/GDCM_HAVE_SYS_TIME_H.c.o -o cmTC_f667f
+        make[1]: Leaving directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-S5ldi1'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "CMakeLists.txt:184 (CHECK_INCLUDE_FILES)"
+      - "Source/Common/CMakeLists.txt:22 (CHECK_INCLUDE_FILE_CONCAT)"
+    checks:
+      - "Looking for include files sys/time.h, winsock.h"
+    directories:
+      source: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-78U3J2"
+      binary: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-78U3J2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/majd/Software/GDCM/CMake"
+    buildResult:
+      variable: "GDCM_HAVE_WINSOCK_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-78U3J2'
+        
+        Run Build Command(s): /snap/cmake/1378/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_9db1e/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_9db1e.dir/build.make CMakeFiles/cmTC_9db1e.dir/build
+        make[1]: Entering directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-78U3J2'
+        Building C object CMakeFiles/cmTC_9db1e.dir/GDCM_HAVE_WINSOCK_H.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_9db1e.dir/GDCM_HAVE_WINSOCK_H.c.o -c /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-78U3J2/GDCM_HAVE_WINSOCK_H.c
+        /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-78U3J2/GDCM_HAVE_WINSOCK_H.c:3:10: fatal error: winsock.h: No such file or directory
+         #include <winsock.h>
+                  ^~~~~~~~~~~
+        compilation terminated.
+        CMakeFiles/cmTC_9db1e.dir/build.make:77: recipe for target 'CMakeFiles/cmTC_9db1e.dir/GDCM_HAVE_WINSOCK_H.c.o' failed
+        make[1]: *** [CMakeFiles/cmTC_9db1e.dir/GDCM_HAVE_WINSOCK_H.c.o] Error 1
+        make[1]: Leaving directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-78U3J2'
+        Makefile:127: recipe for target 'cmTC_9db1e/fast' failed
+        make: *** [cmTC_9db1e/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "CMakeLists.txt:184 (CHECK_INCLUDE_FILES)"
+      - "Source/Common/CMakeLists.txt:23 (CHECK_INCLUDE_FILE_CONCAT)"
+    checks:
+      - "Looking for include files sys/time.h, byteswap.h"
+    directories:
+      source: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-0anzr2"
+      binary: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-0anzr2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/majd/Software/GDCM/CMake"
+    buildResult:
+      variable: "GDCM_HAVE_BYTESWAP_FILE_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-0anzr2'
+        
+        Run Build Command(s): /snap/cmake/1378/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_2b4a2/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_2b4a2.dir/build.make CMakeFiles/cmTC_2b4a2.dir/build
+        make[1]: Entering directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-0anzr2'
+        Building C object CMakeFiles/cmTC_2b4a2.dir/GDCM_HAVE_BYTESWAP_FILE_H.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_2b4a2.dir/GDCM_HAVE_BYTESWAP_FILE_H.c.o -c /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-0anzr2/GDCM_HAVE_BYTESWAP_FILE_H.c
+        Linking C executable cmTC_2b4a2
+        /snap/cmake/1378/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b4a2.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_2b4a2.dir/GDCM_HAVE_BYTESWAP_FILE_H.c.o -o cmTC_2b4a2
+        make[1]: Leaving directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-0anzr2'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "Source/Common/CMakeLists.txt:27 (CHECK_CXX_SOURCE_COMPILES)"
+    checks:
+      - "Performing Test GDCM_HAVE_BYTESWAP_H"
+    directories:
+      source: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-WPv3b4"
+      binary: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-WPv3b4"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/majd/Software/GDCM/CMake"
+    buildResult:
+      variable: "GDCM_HAVE_BYTESWAP_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-WPv3b4'
+        
+        Run Build Command(s): /snap/cmake/1378/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ce961/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_ce961.dir/build.make CMakeFiles/cmTC_ce961.dir/build
+        make[1]: Entering directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-WPv3b4'
+        Building CXX object CMakeFiles/cmTC_ce961.dir/src.cxx.o
+        /usr/bin/c++ -DGDCM_HAVE_BYTESWAP_H   -o CMakeFiles/cmTC_ce961.dir/src.cxx.o -c /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-WPv3b4/src.cxx
+        Linking CXX executable cmTC_ce961
+        /snap/cmake/1378/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ce961.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_ce961.dir/src.cxx.o -o cmTC_ce961
+        make[1]: Leaving directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-WPv3b4'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "Source/Common/CMakeLists.txt:31 (CHECK_INCLUDE_FILE)"
+    checks:
+      - "Looking for rpc.h"
+    directories:
+      source: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-veOB1Z"
+      binary: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-veOB1Z"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/majd/Software/GDCM/CMake"
+    buildResult:
+      variable: "GDCM_HAVE_RPC_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-veOB1Z'
+        
+        Run Build Command(s): /snap/cmake/1378/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8527a/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_8527a.dir/build.make CMakeFiles/cmTC_8527a.dir/build
+        make[1]: Entering directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-veOB1Z'
+        Building C object CMakeFiles/cmTC_8527a.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_8527a.dir/CheckIncludeFile.c.o -c /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-veOB1Z/CheckIncludeFile.c
+        /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-veOB1Z/CheckIncludeFile.c:1:10: fatal error: rpc.h: No such file or directory
+         #include <rpc.h>
+                  ^~~~~~~
+        compilation terminated.
+        CMakeFiles/cmTC_8527a.dir/build.make:77: recipe for target 'CMakeFiles/cmTC_8527a.dir/CheckIncludeFile.c.o' failed
+        make[1]: *** [CMakeFiles/cmTC_8527a.dir/CheckIncludeFile.c.o] Error 1
+        make[1]: Leaving directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-veOB1Z'
+        Makefile:127: recipe for target 'cmTC_8527a/fast' failed
+        make: *** [cmTC_8527a/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "Source/Common/CMakeLists.txt:32 (CHECK_INCLUDE_FILE)"
+    checks:
+      - "Looking for langinfo.h"
+    directories:
+      source: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-TPUzm3"
+      binary: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-TPUzm3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/majd/Software/GDCM/CMake"
+    buildResult:
+      variable: "GDCM_HAVE_LANGINFO_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-TPUzm3'
+        
+        Run Build Command(s): /snap/cmake/1378/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_503b5/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_503b5.dir/build.make CMakeFiles/cmTC_503b5.dir/build
+        make[1]: Entering directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-TPUzm3'
+        Building C object CMakeFiles/cmTC_503b5.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_503b5.dir/CheckIncludeFile.c.o -c /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-TPUzm3/CheckIncludeFile.c
+        Linking C executable cmTC_503b5
+        /snap/cmake/1378/bin/cmake -E cmake_link_script CMakeFiles/cmTC_503b5.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_503b5.dir/CheckIncludeFile.c.o -o cmTC_503b5
+        make[1]: Leaving directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-TPUzm3'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "Source/Common/CMakeLists.txt:37 (CHECK_SYMBOL_EXISTS)"
+    checks:
+      - "Looking for nl_langinfo"
+    directories:
+      source: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-MQI4w3"
+      binary: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-MQI4w3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/majd/Software/GDCM/CMake"
+    buildResult:
+      variable: "GDCM_HAVE_NL_LANGINFO"
+      cached: true
+      stdout: |
+        Change Dir: '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-MQI4w3'
+        
+        Run Build Command(s): /snap/cmake/1378/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_24a6b/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_24a6b.dir/build.make CMakeFiles/cmTC_24a6b.dir/build
+        make[1]: Entering directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-MQI4w3'
+        Building C object CMakeFiles/cmTC_24a6b.dir/CheckSymbolExists.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_24a6b.dir/CheckSymbolExists.c.o -c /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-MQI4w3/CheckSymbolExists.c
+        Linking C executable cmTC_24a6b
+        /snap/cmake/1378/bin/cmake -E cmake_link_script CMakeFiles/cmTC_24a6b.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_24a6b.dir/CheckSymbolExists.c.o -o cmTC_24a6b
+        make[1]: Leaving directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-MQI4w3'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "Source/Common/CMakeLists.txt:40 (CHECK_SYMBOL_EXISTS)"
+    checks:
+      - "Looking for strcasecmp"
+    directories:
+      source: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-RlZv70"
+      binary: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-RlZv70"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/majd/Software/GDCM/CMake"
+    buildResult:
+      variable: "GDCM_HAVE_STRCASECMP"
+      cached: true
+      stdout: |
+        Change Dir: '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-RlZv70'
+        
+        Run Build Command(s): /snap/cmake/1378/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_0749d/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_0749d.dir/build.make CMakeFiles/cmTC_0749d.dir/build
+        make[1]: Entering directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-RlZv70'
+        Building C object CMakeFiles/cmTC_0749d.dir/CheckSymbolExists.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_0749d.dir/CheckSymbolExists.c.o -c /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-RlZv70/CheckSymbolExists.c
+        Linking C executable cmTC_0749d
+        /snap/cmake/1378/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0749d.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_0749d.dir/CheckSymbolExists.c.o -o cmTC_0749d
+        make[1]: Leaving directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-RlZv70'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "Source/Common/CMakeLists.txt:42 (CHECK_SYMBOL_EXISTS)"
+    checks:
+      - "Looking for strncasecmp"
+    directories:
+      source: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-sT1yJ0"
+      binary: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-sT1yJ0"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/majd/Software/GDCM/CMake"
+    buildResult:
+      variable: "GDCM_HAVE_STRNCASECMP"
+      cached: true
+      stdout: |
+        Change Dir: '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-sT1yJ0'
+        
+        Run Build Command(s): /snap/cmake/1378/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d84ea/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_d84ea.dir/build.make CMakeFiles/cmTC_d84ea.dir/build
+        make[1]: Entering directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-sT1yJ0'
+        Building C object CMakeFiles/cmTC_d84ea.dir/CheckSymbolExists.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_d84ea.dir/CheckSymbolExists.c.o -c /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-sT1yJ0/CheckSymbolExists.c
+        Linking C executable cmTC_d84ea
+        /snap/cmake/1378/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d84ea.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_d84ea.dir/CheckSymbolExists.c.o -o cmTC_d84ea
+        make[1]: Leaving directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-sT1yJ0'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "Source/Common/CMakeLists.txt:44 (CHECK_FUNCTION_EXISTS)"
+    checks:
+      - "Looking for strptime"
+    directories:
+      source: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-vIi1H1"
+      binary: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-vIi1H1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/majd/Software/GDCM/CMake"
+    buildResult:
+      variable: "GDCM_HAVE_STRPTIME"
+      cached: true
+      stdout: |
+        Change Dir: '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-vIi1H1'
+        
+        Run Build Command(s): /snap/cmake/1378/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_788cf/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_788cf.dir/build.make CMakeFiles/cmTC_788cf.dir/build
+        make[1]: Entering directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-vIi1H1'
+        Building C object CMakeFiles/cmTC_788cf.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strptime -o CMakeFiles/cmTC_788cf.dir/CheckFunctionExists.c.o -c /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-vIi1H1/CheckFunctionExists.c
+        Linking C executable cmTC_788cf
+        /snap/cmake/1378/bin/cmake -E cmake_link_script CMakeFiles/cmTC_788cf.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strptime CMakeFiles/cmTC_788cf.dir/CheckFunctionExists.c.o -o cmTC_788cf
+        make[1]: Leaving directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-vIi1H1'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "Source/Common/CMakeLists.txt:46 (CHECK_FUNCTION_EXISTS)"
+    checks:
+      - "Looking for _stricmp"
+    directories:
+      source: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-45h453"
+      binary: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-45h453"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/majd/Software/GDCM/CMake"
+    buildResult:
+      variable: "GDCM_HAVE__STRICMP"
+      cached: true
+      stdout: |
+        Change Dir: '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-45h453'
+        
+        Run Build Command(s): /snap/cmake/1378/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_63e44/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_63e44.dir/build.make CMakeFiles/cmTC_63e44.dir/build
+        make[1]: Entering directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-45h453'
+        Building C object CMakeFiles/cmTC_63e44.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_stricmp -o CMakeFiles/cmTC_63e44.dir/CheckFunctionExists.c.o -c /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-45h453/CheckFunctionExists.c
+        Linking C executable cmTC_63e44
+        /snap/cmake/1378/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63e44.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=_stricmp CMakeFiles/cmTC_63e44.dir/CheckFunctionExists.c.o -o cmTC_63e44
+        CMakeFiles/cmTC_63e44.dir/CheckFunctionExists.c.o: In function `main':
+        CheckFunctionExists.c:(.text+0x10): undefined reference to `_stricmp'
+        collect2: error: ld returned 1 exit status
+        CMakeFiles/cmTC_63e44.dir/build.make:98: recipe for target 'cmTC_63e44' failed
+        make[1]: *** [cmTC_63e44] Error 1
+        make[1]: Leaving directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-45h453'
+        Makefile:127: recipe for target 'cmTC_63e44/fast' failed
+        make: *** [cmTC_63e44/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "Source/Common/CMakeLists.txt:47 (CHECK_FUNCTION_EXISTS)"
+    checks:
+      - "Looking for _strnicmp"
+    directories:
+      source: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-4NziA4"
+      binary: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-4NziA4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/majd/Software/GDCM/CMake"
+    buildResult:
+      variable: "GDCM_HAVE__STRNICMP"
+      cached: true
+      stdout: |
+        Change Dir: '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-4NziA4'
+        
+        Run Build Command(s): /snap/cmake/1378/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_50c7c/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_50c7c.dir/build.make CMakeFiles/cmTC_50c7c.dir/build
+        make[1]: Entering directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-4NziA4'
+        Building C object CMakeFiles/cmTC_50c7c.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_strnicmp -o CMakeFiles/cmTC_50c7c.dir/CheckFunctionExists.c.o -c /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-4NziA4/CheckFunctionExists.c
+        Linking C executable cmTC_50c7c
+        /snap/cmake/1378/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50c7c.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=_strnicmp CMakeFiles/cmTC_50c7c.dir/CheckFunctionExists.c.o -o cmTC_50c7c
+        CMakeFiles/cmTC_50c7c.dir/CheckFunctionExists.c.o: In function `main':
+        CheckFunctionExists.c:(.text+0x10): undefined reference to `_strnicmp'
+        collect2: error: ld returned 1 exit status
+        CMakeFiles/cmTC_50c7c.dir/build.make:98: recipe for target 'cmTC_50c7c' failed
+        make[1]: *** [cmTC_50c7c] Error 1
+        make[1]: Leaving directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-4NziA4'
+        Makefile:127: recipe for target 'cmTC_50c7c/fast' failed
+        make: *** [cmTC_50c7c/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "Source/Common/CMakeLists.txt:52 (CHECK_FUNCTION_EXISTS)"
+    checks:
+      - "Looking for gettimeofday"
+    directories:
+      source: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-68uiF0"
+      binary: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-68uiF0"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/majd/Software/GDCM/CMake"
+    buildResult:
+      variable: "GDCM_HAVE_GETTIMEOFDAY"
+      cached: true
+      stdout: |
+        Change Dir: '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-68uiF0'
+        
+        Run Build Command(s): /snap/cmake/1378/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4ab72/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_4ab72.dir/build.make CMakeFiles/cmTC_4ab72.dir/build
+        make[1]: Entering directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-68uiF0'
+        Building C object CMakeFiles/cmTC_4ab72.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gettimeofday -o CMakeFiles/cmTC_4ab72.dir/CheckFunctionExists.c.o -c /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-68uiF0/CheckFunctionExists.c
+        Linking C executable cmTC_4ab72
+        /snap/cmake/1378/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ab72.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gettimeofday CMakeFiles/cmTC_4ab72.dir/CheckFunctionExists.c.o -o cmTC_4ab72
+        make[1]: Leaving directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-68uiF0'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "Source/Common/CMakeLists.txt:61 (CHECK_CXX_SOURCE_COMPILES)"
+    checks:
+      - "Performing Test GDCM_CXX_HAS_FUNCTION"
+    directories:
+      source: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-PBM6c2"
+      binary: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-PBM6c2"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/majd/Software/GDCM/CMake"
+    buildResult:
+      variable: "GDCM_CXX_HAS_FUNCTION"
+      cached: true
+      stdout: |
+        Change Dir: '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-PBM6c2'
+        
+        Run Build Command(s): /snap/cmake/1378/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b8aee/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_b8aee.dir/build.make CMakeFiles/cmTC_b8aee.dir/build
+        make[1]: Entering directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-PBM6c2'
+        Building CXX object CMakeFiles/cmTC_b8aee.dir/src.cxx.o
+        /usr/bin/c++ -DGDCM_CXX_HAS_FUNCTION   -o CMakeFiles/cmTC_b8aee.dir/src.cxx.o -c /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-PBM6c2/src.cxx
+        Linking CXX executable cmTC_b8aee
+        /snap/cmake/1378/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8aee.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_b8aee.dir/src.cxx.o -o cmTC_b8aee
+        make[1]: Leaving directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-PBM6c2'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "Source/Common/CMakeLists.txt:64 (CHECK_CXX_SOURCE_COMPILES)"
+    checks:
+      - "Performing Test GDCM_HAVE_WCHAR_IFSTREAM"
+    directories:
+      source: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-fyG712"
+      binary: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-fyG712"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/majd/Software/GDCM/CMake"
+    buildResult:
+      variable: "GDCM_HAVE_WCHAR_IFSTREAM"
+      cached: true
+      stdout: |
+        Change Dir: '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-fyG712'
+        
+        Run Build Command(s): /snap/cmake/1378/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f1866/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_f1866.dir/build.make CMakeFiles/cmTC_f1866.dir/build
+        make[1]: Entering directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-fyG712'
+        Building CXX object CMakeFiles/cmTC_f1866.dir/src.cxx.o
+        /usr/bin/c++ -DGDCM_HAVE_WCHAR_IFSTREAM   -o CMakeFiles/cmTC_f1866.dir/src.cxx.o -c /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-fyG712/src.cxx
+        /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-fyG712/src.cxx: In function ‘int main()’:
+        /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-fyG712/src.cxx:2:62: error: no matching function for call to ‘std::basic_ifstream<char>::basic_ifstream(const wchar_t [10])’
+         int main() { const wchar_t fn[10] = {}; std::ifstream is( fn ); std::wcerr << fn; return 0;}
+                                                                      ^
+        In file included from /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-fyG712/src.cxx:1:0:
+        /usr/include/c++/7/fstream:521:7: note: candidate: std::basic_ifstream<_CharT, _Traits>::basic_ifstream(std::basic_ifstream<_CharT, _Traits>&&) [with _CharT = char; _Traits = std::char_traits<char>]
+               basic_ifstream(basic_ifstream&& __rhs)
+               ^~~~~~~~~~~~~~
+        /usr/include/c++/7/fstream:521:7: note:   no known conversion for argument 1 from ‘const wchar_t [10]’ to ‘std::basic_ifstream<char>&&’
+        /usr/include/c++/7/fstream:511:7: note: candidate: std::basic_ifstream<_CharT, _Traits>::basic_ifstream(const string&, std::ios_base::openmode) [with _CharT = char; _Traits = std::char_traits<char>; std::__cxx11::string = std::__cxx11::basic_string<char>; std::ios_base::openmode = std::_Ios_Openmode]
+               basic_ifstream(const std::string& __s,
+               ^~~~~~~~~~~~~~
+        /usr/include/c++/7/fstream:511:7: note:   no known conversion for argument 1 from ‘const wchar_t [10]’ to ‘const string& {aka const std::__cxx11::basic_string<char>&}’
+        /usr/include/c++/7/fstream:495:7: note: candidate: std::basic_ifstream<_CharT, _Traits>::basic_ifstream(const char*, std::ios_base::openmode) [with _CharT = char; _Traits = std::char_traits<char>; std::ios_base::openmode = std::_Ios_Openmode]
+               basic_ifstream(const char* __s, ios_base::openmode __mode = ios_base::in)
+               ^~~~~~~~~~~~~~
+        /usr/include/c++/7/fstream:495:7: note:   no known conversion for argument 1 from ‘const wchar_t [10]’ to ‘const char*’
+        /usr/include/c++/7/fstream:481:7: note: candidate: std::basic_ifstream<_CharT, _Traits>::basic_ifstream() [with _CharT = char; _Traits = std::char_traits<char>]
+               basic_ifstream() : __istream_type(), _M_filebuf()
+               ^~~~~~~~~~~~~~
+        /usr/include/c++/7/fstream:481:7: note:   candidate expects 0 arguments, 1 provided
+        /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-fyG712/src.cxx:2:70: error: ‘wcerr’ is not a member of ‘std’
+         int main() { const wchar_t fn[10] = {}; std::ifstream is( fn ); std::wcerr << fn; return 0;}
+                                                                              ^~~~~
+        CMakeFiles/cmTC_f1866.dir/build.make:77: recipe for target 'CMakeFiles/cmTC_f1866.dir/src.cxx.o' failed
+        make[1]: *** [CMakeFiles/cmTC_f1866.dir/src.cxx.o] Error 1
+        make[1]: Leaving directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-fyG712'
+        Makefile:127: recipe for target 'cmTC_f1866/fast' failed
+        make: *** [cmTC_f1866/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "Source/Common/CMakeLists.txt:67 (CHECK_CXX_SOURCE_COMPILES)"
+    checks:
+      - "Performing Test GDCM_HAVE_CODECVT"
+    directories:
+      source: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-60wun3"
+      binary: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-60wun3"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/majd/Software/GDCM/CMake"
+    buildResult:
+      variable: "GDCM_HAVE_CODECVT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-60wun3'
+        
+        Run Build Command(s): /snap/cmake/1378/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ff8f7/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_ff8f7.dir/build.make CMakeFiles/cmTC_ff8f7.dir/build
+        make[1]: Entering directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-60wun3'
+        Building CXX object CMakeFiles/cmTC_ff8f7.dir/src.cxx.o
+        /usr/bin/c++ -DGDCM_HAVE_CODECVT   -o CMakeFiles/cmTC_ff8f7.dir/src.cxx.o -c /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-60wun3/src.cxx
+        Linking CXX executable cmTC_ff8f7
+        /snap/cmake/1378/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff8f7.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_ff8f7.dir/src.cxx.o -o cmTC_ff8f7
+        make[1]: Leaving directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-60wun3'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/FindIconv.cmake:115 (check_c_source_compiles)"
+      - "Source/MediaStorageAndFileFormat/CMakeLists.txt:232 (find_package)"
+    checks:
+      - "Performing Test Iconv_IS_BUILT_IN"
+    directories:
+      source: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-t4m2n0"
+      binary: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-t4m2n0"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/majd/Software/GDCM/CMake"
+    buildResult:
+      variable: "Iconv_IS_BUILT_IN"
+      cached: true
+      stdout: |
+        Change Dir: '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-t4m2n0'
+        
+        Run Build Command(s): /snap/cmake/1378/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_90b23/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_90b23.dir/build.make CMakeFiles/cmTC_90b23.dir/build
+        make[1]: Entering directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-t4m2n0'
+        Building C object CMakeFiles/cmTC_90b23.dir/src.c.o
+        /usr/bin/cc -DIconv_IS_BUILT_IN   -o CMakeFiles/cmTC_90b23.dir/src.c.o -c /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-t4m2n0/src.c
+        Linking C executable cmTC_90b23
+        /snap/cmake/1378/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90b23.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_90b23.dir/src.c.o -o cmTC_90b23
+        make[1]: Leaving directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-t4m2n0'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/FindX11.cmake:693 (check_library_exists)"
+      - "/usr/local/lib/cmake/vtk-9.3/VTK-vtk-module-find-packages.cmake:350 (find_package)"
+      - "/usr/local/lib/cmake/vtk-9.3/vtk-config.cmake:159 (include)"
+      - "CMakeLists.txt:660 (find_package)"
+    checks:
+      - "Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so"
+    directories:
+      source: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-UKacuP"
+      binary: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-UKacuP"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/local/lib/cmake/vtk-9.3/patches/99;/usr/local/lib/cmake/vtk-9.3;/home/majd/Software/GDCM/CMake"
+    buildResult:
+      variable: "X11_LIB_X11_SOLO"
+      cached: true
+      stdout: |
+        Change Dir: '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-UKacuP'
+        
+        Run Build Command(s): /snap/cmake/1378/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_be77d/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_be77d.dir/build.make CMakeFiles/cmTC_be77d.dir/build
+        make[1]: Entering directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-UKacuP'
+        Building C object CMakeFiles/cmTC_be77d.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -o CMakeFiles/cmTC_be77d.dir/CheckFunctionExists.c.o -c /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-UKacuP/CheckFunctionExists.c
+        Linking C executable cmTC_be77d
+        /snap/cmake/1378/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be77d.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay CMakeFiles/cmTC_be77d.dir/CheckFunctionExists.c.o -o cmTC_be77d  /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so
+        make[1]: Leaving directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-UKacuP'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/FindX11.cmake:708 (check_function_exists)"
+      - "/usr/local/lib/cmake/vtk-9.3/VTK-vtk-module-find-packages.cmake:350 (find_package)"
+      - "/usr/local/lib/cmake/vtk-9.3/vtk-config.cmake:159 (include)"
+      - "CMakeLists.txt:660 (find_package)"
+    checks:
+      - "Looking for gethostbyname"
+    directories:
+      source: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-imxGGM"
+      binary: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-imxGGM"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/local/lib/cmake/vtk-9.3/patches/99;/usr/local/lib/cmake/vtk-9.3;/home/majd/Software/GDCM/CMake"
+    buildResult:
+      variable: "CMAKE_HAVE_GETHOSTBYNAME"
+      cached: true
+      stdout: |
+        Change Dir: '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-imxGGM'
+        
+        Run Build Command(s): /snap/cmake/1378/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_67246/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_67246.dir/build.make CMakeFiles/cmTC_67246.dir/build
+        make[1]: Entering directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-imxGGM'
+        Building C object CMakeFiles/cmTC_67246.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname -o CMakeFiles/cmTC_67246.dir/CheckFunctionExists.c.o -c /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-imxGGM/CheckFunctionExists.c
+        Linking C executable cmTC_67246
+        /snap/cmake/1378/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67246.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname CMakeFiles/cmTC_67246.dir/CheckFunctionExists.c.o -o cmTC_67246
+        make[1]: Leaving directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-imxGGM'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/FindX11.cmake:722 (check_function_exists)"
+      - "/usr/local/lib/cmake/vtk-9.3/VTK-vtk-module-find-packages.cmake:350 (find_package)"
+      - "/usr/local/lib/cmake/vtk-9.3/vtk-config.cmake:159 (include)"
+      - "CMakeLists.txt:660 (find_package)"
+    checks:
+      - "Looking for connect"
+    directories:
+      source: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-04MB8N"
+      binary: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-04MB8N"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/local/lib/cmake/vtk-9.3/patches/99;/usr/local/lib/cmake/vtk-9.3;/home/majd/Software/GDCM/CMake"
+    buildResult:
+      variable: "CMAKE_HAVE_CONNECT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-04MB8N'
+        
+        Run Build Command(s): /snap/cmake/1378/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b37f5/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_b37f5.dir/build.make CMakeFiles/cmTC_b37f5.dir/build
+        make[1]: Entering directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-04MB8N'
+        Building C object CMakeFiles/cmTC_b37f5.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect -o CMakeFiles/cmTC_b37f5.dir/CheckFunctionExists.c.o -c /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-04MB8N/CheckFunctionExists.c
+        Linking C executable cmTC_b37f5
+        /snap/cmake/1378/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b37f5.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=connect CMakeFiles/cmTC_b37f5.dir/CheckFunctionExists.c.o -o cmTC_b37f5
+        make[1]: Leaving directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-04MB8N'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/FindX11.cmake:731 (check_function_exists)"
+      - "/usr/local/lib/cmake/vtk-9.3/VTK-vtk-module-find-packages.cmake:350 (find_package)"
+      - "/usr/local/lib/cmake/vtk-9.3/vtk-config.cmake:159 (include)"
+      - "CMakeLists.txt:660 (find_package)"
+    checks:
+      - "Looking for remove"
+    directories:
+      source: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-Ruqa1O"
+      binary: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-Ruqa1O"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/local/lib/cmake/vtk-9.3/patches/99;/usr/local/lib/cmake/vtk-9.3;/home/majd/Software/GDCM/CMake"
+    buildResult:
+      variable: "CMAKE_HAVE_REMOVE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-Ruqa1O'
+        
+        Run Build Command(s): /snap/cmake/1378/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7fe26/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_7fe26.dir/build.make CMakeFiles/cmTC_7fe26.dir/build
+        make[1]: Entering directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-Ruqa1O'
+        Building C object CMakeFiles/cmTC_7fe26.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove -o CMakeFiles/cmTC_7fe26.dir/CheckFunctionExists.c.o -c /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-Ruqa1O/CheckFunctionExists.c
+        Linking C executable cmTC_7fe26
+        /snap/cmake/1378/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7fe26.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=remove CMakeFiles/cmTC_7fe26.dir/CheckFunctionExists.c.o -o cmTC_7fe26
+        make[1]: Leaving directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-Ruqa1O'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/FindX11.cmake:740 (check_function_exists)"
+      - "/usr/local/lib/cmake/vtk-9.3/VTK-vtk-module-find-packages.cmake:350 (find_package)"
+      - "/usr/local/lib/cmake/vtk-9.3/vtk-config.cmake:159 (include)"
+      - "CMakeLists.txt:660 (find_package)"
+    checks:
+      - "Looking for shmat"
+    directories:
+      source: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-50B53N"
+      binary: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-50B53N"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/local/lib/cmake/vtk-9.3/patches/99;/usr/local/lib/cmake/vtk-9.3;/home/majd/Software/GDCM/CMake"
+    buildResult:
+      variable: "CMAKE_HAVE_SHMAT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-50B53N'
+        
+        Run Build Command(s): /snap/cmake/1378/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a38b4/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_a38b4.dir/build.make CMakeFiles/cmTC_a38b4.dir/build
+        make[1]: Entering directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-50B53N'
+        Building C object CMakeFiles/cmTC_a38b4.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat -o CMakeFiles/cmTC_a38b4.dir/CheckFunctionExists.c.o -c /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-50B53N/CheckFunctionExists.c
+        Linking C executable cmTC_a38b4
+        /snap/cmake/1378/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a38b4.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shmat CMakeFiles/cmTC_a38b4.dir/CheckFunctionExists.c.o -o cmTC_a38b4
+        make[1]: Leaving directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-50B53N'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/FindX11.cmake:750 (check_library_exists)"
+      - "/usr/local/lib/cmake/vtk-9.3/VTK-vtk-module-find-packages.cmake:350 (find_package)"
+      - "/usr/local/lib/cmake/vtk-9.3/vtk-config.cmake:159 (include)"
+      - "CMakeLists.txt:660 (find_package)"
+    checks:
+      - "Looking for IceConnectionNumber in ICE"
+    directories:
+      source: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-rPiVuN"
+      binary: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-rPiVuN"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/local/lib/cmake/vtk-9.3/patches/99;/usr/local/lib/cmake/vtk-9.3;/home/majd/Software/GDCM/CMake"
+    buildResult:
+      variable: "CMAKE_LIB_ICE_HAS_ICECONNECTIONNUMBER"
+      cached: true
+      stdout: |
+        Change Dir: '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-rPiVuN'
+        
+        Run Build Command(s): /snap/cmake/1378/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_71b32/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_71b32.dir/build.make CMakeFiles/cmTC_71b32.dir/build
+        make[1]: Entering directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-rPiVuN'
+        Building C object CMakeFiles/cmTC_71b32.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -o CMakeFiles/cmTC_71b32.dir/CheckFunctionExists.c.o -c /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-rPiVuN/CheckFunctionExists.c
+        Linking C executable cmTC_71b32
+        /snap/cmake/1378/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71b32.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber CMakeFiles/cmTC_71b32.dir/CheckFunctionExists.c.o -o cmTC_71b32  -lICE
+        make[1]: Leaving directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-rPiVuN'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "Utilities/VTK/CMakeLists.txt:36 (CHECK_CXX_SOURCE_COMPILES)"
+    checks:
+      - "Performing Test VTK_HAS_SMARTVOLUMEMAPPER"
+    directories:
+      source: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-lO00UP"
+      binary: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-lO00UP"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/majd/Software/GDCM/CMake"
+    buildResult:
+      variable: "VTK_HAS_SMARTVOLUMEMAPPER"
+      cached: true
+      stdout: |
+        Change Dir: '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-lO00UP'
+        
+        Run Build Command(s): /snap/cmake/1378/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_0a267/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_0a267.dir/build.make CMakeFiles/cmTC_0a267.dir/build
+        make[1]: Entering directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-lO00UP'
+        Building CXX object CMakeFiles/cmTC_0a267.dir/src.cxx.o
+        /usr/bin/c++ -DVTK_HAS_SMARTVOLUMEMAPPER   -o CMakeFiles/cmTC_0a267.dir/src.cxx.o -c /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-lO00UP/src.cxx
+        /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-lO00UP/src.cxx:1:10: fatal error: vtkSmartVolumeMapper.h: No such file or directory
+         #include <vtkSmartVolumeMapper.h>
+                  ^~~~~~~~~~~~~~~~~~~~~~~~
+        compilation terminated.
+        CMakeFiles/cmTC_0a267.dir/build.make:77: recipe for target 'CMakeFiles/cmTC_0a267.dir/src.cxx.o' failed
+        make[1]: *** [CMakeFiles/cmTC_0a267.dir/src.cxx.o] Error 1
+        make[1]: Leaving directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-lO00UP'
+        Makefile:127: recipe for target 'cmTC_0a267/fast' failed
+        make: *** [cmTC_0a267/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "Utilities/VTK/CMakeLists.txt:39 (CHECK_CXX_SOURCE_COMPILES)"
+    checks:
+      - "Performing Test VTK_HAS_IMAGERESLICEMAPPER"
+    directories:
+      source: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-SnDukN"
+      binary: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-SnDukN"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/majd/Software/GDCM/CMake"
+    buildResult:
+      variable: "VTK_HAS_IMAGERESLICEMAPPER"
+      cached: true
+      stdout: |
+        Change Dir: '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-SnDukN'
+        
+        Run Build Command(s): /snap/cmake/1378/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_19f91/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_19f91.dir/build.make CMakeFiles/cmTC_19f91.dir/build
+        make[1]: Entering directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-SnDukN'
+        Building CXX object CMakeFiles/cmTC_19f91.dir/src.cxx.o
+        /usr/bin/c++ -DVTK_HAS_IMAGERESLICEMAPPER   -o CMakeFiles/cmTC_19f91.dir/src.cxx.o -c /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-SnDukN/src.cxx
+        /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-SnDukN/src.cxx:1:10: fatal error: vtkImageResliceMapper.h: No such file or directory
+         #include <vtkImageResliceMapper.h>
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~
+        compilation terminated.
+        CMakeFiles/cmTC_19f91.dir/build.make:77: recipe for target 'CMakeFiles/cmTC_19f91.dir/src.cxx.o' failed
+        make[1]: *** [CMakeFiles/cmTC_19f91.dir/src.cxx.o] Error 1
+        make[1]: Leaving directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-SnDukN'
+        Makefile:127: recipe for target 'cmTC_19f91/fast' failed
+        make: *** [cmTC_19f91/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CheckCompilerFlag.cmake:52 (cmake_check_compiler_flag)"
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/GenerateExportHeader.cmake:238 (check_compiler_flag)"
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/GenerateExportHeader.cmake:419 (_test_compiler_hidden_visibility)"
+      - "/usr/local/lib/cmake/vtk-9.3/vtkModule.cmake:4141 (generate_export_header)"
+      - "Utilities/VTK/CMakeLists.txt:219 (vtk_module_add_module)"
+    checks:
+      - "Performing Test COMPILER_HAS_HIDDEN_VISIBILITY"
+    directories:
+      source: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-beAlHO"
+      binary: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-beAlHO"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/majd/Software/GDCM/CMake"
+    buildResult:
+      variable: "COMPILER_HAS_HIDDEN_VISIBILITY"
+      cached: true
+      stdout: |
+        Change Dir: '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-beAlHO'
+        
+        Run Build Command(s): /snap/cmake/1378/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_70b70/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_70b70.dir/build.make CMakeFiles/cmTC_70b70.dir/build
+        make[1]: Entering directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-beAlHO'
+        Building CXX object CMakeFiles/cmTC_70b70.dir/src.cxx.o
+        /usr/bin/c++ -DCOMPILER_HAS_HIDDEN_VISIBILITY  -fvisibility=hidden -o CMakeFiles/cmTC_70b70.dir/src.cxx.o -c /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-beAlHO/src.cxx
+        Linking CXX executable cmTC_70b70
+        /snap/cmake/1378/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70b70.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_70b70.dir/src.cxx.o -o cmTC_70b70
+        make[1]: Leaving directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-beAlHO'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CheckCompilerFlag.cmake:52 (cmake_check_compiler_flag)"
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/GenerateExportHeader.cmake:239 (check_compiler_flag)"
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/GenerateExportHeader.cmake:419 (_test_compiler_hidden_visibility)"
+      - "/usr/local/lib/cmake/vtk-9.3/vtkModule.cmake:4141 (generate_export_header)"
+      - "Utilities/VTK/CMakeLists.txt:219 (vtk_module_add_module)"
+    checks:
+      - "Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY"
+    directories:
+      source: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-H8mYHN"
+      binary: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-H8mYHN"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/majd/Software/GDCM/CMake"
+    buildResult:
+      variable: "COMPILER_HAS_HIDDEN_INLINE_VISIBILITY"
+      cached: true
+      stdout: |
+        Change Dir: '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-H8mYHN'
+        
+        Run Build Command(s): /snap/cmake/1378/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_63a1f/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_63a1f.dir/build.make CMakeFiles/cmTC_63a1f.dir/build
+        make[1]: Entering directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-H8mYHN'
+        Building CXX object CMakeFiles/cmTC_63a1f.dir/src.cxx.o
+        /usr/bin/c++ -DCOMPILER_HAS_HIDDEN_INLINE_VISIBILITY  -fvisibility-inlines-hidden -o CMakeFiles/cmTC_63a1f.dir/src.cxx.o -c /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-H8mYHN/src.cxx
+        Linking CXX executable cmTC_63a1f
+        /snap/cmake/1378/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63a1f.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_63a1f.dir/src.cxx.o -o cmTC_63a1f
+        make[1]: Leaving directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-H8mYHN'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/CheckSourceCompiles.cmake:77 (cmake_check_source_compiles)"
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/GenerateExportHeader.cmake:206 (check_source_compiles)"
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/GenerateExportHeader.cmake:263 (_check_cxx_compiler_attribute)"
+      - "/snap/cmake/1378/share/cmake-3.29/Modules/GenerateExportHeader.cmake:420 (_test_compiler_has_deprecated)"
+      - "/usr/local/lib/cmake/vtk-9.3/vtkModule.cmake:4141 (generate_export_header)"
+      - "Utilities/VTK/CMakeLists.txt:219 (vtk_module_add_module)"
+    checks:
+      - "Performing Test COMPILER_HAS_DEPRECATED_ATTR"
+    directories:
+      source: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-gwX3zP"
+      binary: "/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-gwX3zP"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/majd/Software/GDCM/CMake"
+    buildResult:
+      variable: "COMPILER_HAS_DEPRECATED_ATTR"
+      cached: true
+      stdout: |
+        Change Dir: '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-gwX3zP'
+        
+        Run Build Command(s): /snap/cmake/1378/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1d4d4/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_1d4d4.dir/build.make CMakeFiles/cmTC_1d4d4.dir/build
+        make[1]: Entering directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-gwX3zP'
+        Building CXX object CMakeFiles/cmTC_1d4d4.dir/src.cxx.o
+        /usr/bin/c++ -DCOMPILER_HAS_DEPRECATED_ATTR   -o CMakeFiles/cmTC_1d4d4.dir/src.cxx.o -c /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-gwX3zP/src.cxx
+        /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-gwX3zP/src.cxx: In function ‘int main()’:
+        /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-gwX3zP/src.cxx:2:34: warning: ‘int somefunc()’ is deprecated [-Wdeprecated-declarations]
+             int main() { return somefunc();}
+                                          ^
+        /home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-gwX3zP/src.cxx:1:37: note: declared here
+         __attribute__((__deprecated__)) int somefunc() { return 0; }
+                                             ^~~~~~~~
+        Linking CXX executable cmTC_1d4d4
+        /snap/cmake/1378/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d4d4.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_1d4d4.dir/src.cxx.o -o cmTC_1d4d4
+        make[1]: Leaving directory '/home/majd/Software/GDCM/GDCM-build/CMakeFiles/CMakeScratch/TryCompile-gwX3zP'
+        
+      exitCode: 0
+...
